@@ -1,0 +1,108 @@
+/* Footer Custom Styles */
+
+/* Footer Styling */
+.custom-footer {
+    background-color: white;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Container */
+.custom-container {
+    max-width: 1280px;
+    padding: 24px 16px;
+    margin: 0 auto;
+}
+
+/* Flexbox for Layout */
+.custom-flex {
+    display: flex;
+}
+
+.custom-justify-between {
+    justify-content: space-between;
+}
+
+.custom-items-center {
+    align-items: center;
+}
+
+.custom-margin-bottom {
+    margin-bottom: 24px;
+}
+
+/* Grid for Columns */
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.custom-grid-sm {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Heading Styles */
+.custom-heading {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a202c;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* List Items */
+.custom-list {
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.custom-list-item {
+    margin-bottom: 16px;
+}
+
+.custom-link {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.custom-divider {
+    margin: 24px 0;
+    border-color: #e2e8f0;
+}
+
+/* Text Styling */
+.custom-text-small {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.custom-hover-link:hover {
+    text-decoration: underline;
+}
+
+/* Social Links */
+.custom-social-link {
+    color: #4a5568;
+    transition: color 0.3s;
+}
+
+.custom-social-link:hover {
+    color: #1a202c;
+}
+
+.custom-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.custom-space-x {
+    display: flex;
+    gap: 12px;
+}

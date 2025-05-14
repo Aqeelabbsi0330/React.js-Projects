@@ -1,0 +1,23 @@
+/* Username.css */
+.username-container {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.username-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.username-text {
+  color: #555;
+  font-size: 16px;
+  text-align: center;
+}

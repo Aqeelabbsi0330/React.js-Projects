@@ -1,0 +1,53 @@
+.programs{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin:6% auto;
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+}
+.program img{
+    width:100%;
+    border-radius: 10px;
+    display: block;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,15,152,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
+    opacity: 0; 
+     transition: all 0.5s;
+    padding-top:100%
+}
+.caption img{
+    width: 25%;
+    margin-bottom: 10px;
+}
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0%;
+}
+/* -----Medai query----- */
+@media (max-width:650px) {
+.programs{
+    flex-direction: column;
+
+}
+    
+.program{
+    flex-basis: 100%;
+    margin:20px;
+}
+}

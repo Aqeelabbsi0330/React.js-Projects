@@ -1,0 +1,51 @@
+.container{
+    background: #dbd8d8;
+    /* height: 80vh; */
+    padding:2% 4%;
+    width: 80vw;
+    margin: 3% auto ;
+    border-radius:30px;
+    
+}
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(16, 6, 6)
+}
+.addToDo{
+    display: flex;
+    gap:1%;
+}
+.addbtn{
+    margin-left: 20px;
+}
+.ToDo-text{
+    width: 50%;
+    border-radius: 5px;
+    padding:1%;
+    border: none;
+}
+.ToDo-text:focus{
+    outline: none;
+    border:1px solid red;
+}
+.btn{
+    background-color: rgb(45, 6, 241);
+    margin-left:30px;
+    border-radius: 5px;
+    padding:5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 15px;
+}
+.btn:hover{
+    transition: all;
+    transition-duration: 0.3s;
+    font-size: 22px;
+}
+.Notodo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color:red;
+}
