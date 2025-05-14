@@ -27,6 +27,9 @@
 .nav-links a:hover {
   color: #ffeb3b;
 }
+.active{
+  color:red;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
