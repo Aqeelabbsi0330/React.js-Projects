@@ -1,0 +1,70 @@
+/* src/components/Calculator.css */
+.calculator {
+  width: 320px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculator input {
+  width: 100%;
+  height: 40px;
+  font-size: 1.2rem;
+  text-align: right;
+  padding: 0 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
+
+.scientific-buttons {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.scientific-buttons button {
+  flex: 1 1 30%;
+  background-color: #d2f0f8;
+  font-size: 0.95rem;
+  padding: 8px;
+}
+
+button.equal {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.clear {
+  background-color: #f44336;
+  color: white;
+}
+
+button.backspace {
+  background-color: #ff9800;
+  color: white;
+}
