@@ -4,7 +4,7 @@ import "./Calculator.css";
 
 const Calculator = () => {
   const [input, setInput] = useState("");
-  const [memory, setMemory] = useState(0); // 👈 Memory state
+  const [memory, setMemory] = useState(0);
 
   const handleClick = (value) => {
     setInput((prev) => prev + value);
@@ -70,7 +70,6 @@ const Calculator = () => {
     }
   };
 
-  // ✅ Memory Function Handlers
   const handleMemory = (action) => {
     try {
       const current = parseFloat(eval(input));
@@ -99,7 +98,6 @@ const Calculator = () => {
     <div className="calculator">
       <input type="text" value={input} readOnly />
 
-      {/* Scientific buttons */}
       <div className="scientific-buttons">
         {["sin", "cos", "tan", "log", "ln", "√", "∛", "x²", "x³", "exp"].map(
           (btn) => (
@@ -110,7 +108,6 @@ const Calculator = () => {
         )}
       </div>
 
-      {/* Memory buttons */}
       <div className="scientific-buttons">
         {["M+", "M-", "MR", "MC"].map((btn) => (
           <button key={btn} onClick={() => handleMemory(btn)}>
@@ -119,7 +116,6 @@ const Calculator = () => {
         ))}
       </div>
 
-      {/* Main keypad */}
       <div className="buttons-grid">
         {[
           "7",
